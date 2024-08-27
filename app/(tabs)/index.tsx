@@ -14,25 +14,15 @@ export default function HomeScreen() {
       light: '#Fd3c34d'
     }} headerImage={
       <Image
-         source={require('@/assets/images/partial-react-logo.png')}
-         style={styles.reactLogo}
-         />
+        source={require('@/assets/images/partial-react-logo.png')}
+        style={styles.reactLogo}
+        />
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Hello User, Welcome!</ThemedText>
         <HelloWave />
       </ThemedView>
     </ParallaxScrollView>
-
-    // <ParallaxScrollView
-    //   headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-    //   headerImage={
-    //     <Image
-    //       source={require('@/assets/images/partial-react-logo.png')}
-    //       style={styles.reactLogo}
-    //     />
-    //   }>
-    // </ParallaxScrollView>
   );
 }
 
